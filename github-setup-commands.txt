@@ -1,0 +1,5 @@
+1. git  init
+2. git add .
+3. git commit -m “first message”
+4. git remote add origin https://github.com/VallamBhavani/properties-management.git
+6. git push --set-upstream origin master
