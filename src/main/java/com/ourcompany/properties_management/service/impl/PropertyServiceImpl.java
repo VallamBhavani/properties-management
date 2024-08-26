@@ -30,6 +30,7 @@ public class PropertyServiceImpl implements PropertyService {
 
     @Override
     public List<PropertyDTO> getAllProperties() {
+        System.out.println("Display all properties");
         List<PropertyEntity> listOfProps = (List<PropertyEntity>)propertyRepository.findAll();
         List<PropertyDTO> propsList= new ArrayList<>();
         for(PropertyEntity entity:listOfProps)
